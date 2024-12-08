@@ -1,0 +1,21 @@
+@keyframes expandEffect {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.5);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .bg-blood-pattern {
+    background-image: url('/mansion.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
