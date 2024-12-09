@@ -73,7 +73,13 @@ const ThirdPage = () => {
           <div className="flex flex-col justify-center items-center">
             <h2 className="text-2xl font-semibold mb-4"> Riddle</h2>
             <p className="text-center text-gray-700">
-            (5^2 - 20) / 10 + (12 ÷ 4) - 2
+            Three's the charm, they say,
+In ancient Rome, a trio held sway.
+Caesar's power, a triple threat,
+Three stars aligned, his fate to meet.
+            </p>
+            <p>
+            Caesar cipher decryption shifts each letter backward by the given number (in this case, 3).
             </p>
           </div>
         </div>
@@ -81,7 +87,7 @@ const ThirdPage = () => {
       )}
         </div>
         <div>
-        <h1 className=' text-4xl text-white font-semibold '>Q R W Q R G H W X X R</h1>
+        <h1 className=' text-4xl text-white font-semibold '>QRW RQH HXW WZR</h1>
         </div>
       </div>
 </div>

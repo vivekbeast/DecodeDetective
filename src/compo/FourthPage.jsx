@@ -9,7 +9,7 @@ const FourthPage = () => {
 
   // Function to handle the button click
   const handleButtonClick = () => {
-    if (inputValue === "THIS IS HELLO") {
+    if (inputValue === "NOT ONE BUT TWO") {
       setShowPopup(true); // Show the main popup
       setShowErrorPopup(false); // Ensure error popup is hidden
     } else {
